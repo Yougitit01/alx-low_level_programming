@@ -2,9 +2,9 @@
 /**
  * main - Entry point
  * Description: Numbers of base 10
- * Return; Always 0
+ * Return: Always 0
  */
-int  main(void)
+int main(void)
 {
 	int n = 0;
 

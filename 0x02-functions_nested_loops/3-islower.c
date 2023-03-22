@@ -7,7 +7,6 @@
  */
 
 int _islower(int f)
-
 {
 	if (f >= 97 && f <= 122)
 	{

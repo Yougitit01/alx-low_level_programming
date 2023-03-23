@@ -3,7 +3,7 @@
 
 /**
  * print_times_tables - Prints the times tables of the input
- * Starting with 0.
+ * starting with 0.
  * @n: The value of the times tables to be printed.
  */
 

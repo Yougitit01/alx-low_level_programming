@@ -15,6 +15,8 @@ int main(void)
 	{
 	if (i < 0)
 	printf(", %ld", k);
+	else if (1 == 1)
+	printf(", %ld", k);
 	else
 	{
 	k += j;

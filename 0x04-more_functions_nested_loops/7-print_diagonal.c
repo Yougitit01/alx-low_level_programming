@@ -2,30 +2,31 @@
 
 /**
  * print_diagonal - Draws a diagonal lines according paramater
- * @a: The number of times to print diagonallines
+ * @n: The number of times to print diagonallines
  * Return: empty
  */
 
-void print_diagonal(int a)
+void print_diagonal(int n)
 
 {
 
-	int c, d;
-
-	if (a <= 0)
+	if (n <= 0)
 	{
 		_putchar('\n');
-	}
-	else
+	}else
 	{
-	for (c = 0; c < a; c++)
-	{
-	for (d = 0; d < a; d++)
-	{
-		_putchar(32);
-	}
-	_putchar(92);
-	_putchar('\n');
-	}
+		int x, y;
+
+		for (x = 0; x < n; x++)
+		{
+			for (y = 0; y < n; y++)
+			{
+				if (y == x)
+					_putchar('\\');
+				else if (y < x)
+					_putchar(' ');
+			}
+			_putchar('\n');
+		}
 	}
 }

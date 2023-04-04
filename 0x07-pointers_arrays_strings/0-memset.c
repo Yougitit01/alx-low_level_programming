@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * memset - a function that fills memory with a constant byte
  * @n: starting address of memory to be filled
@@ -10,7 +9,6 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-
 	int i = 0;
 
 	for (; n > 0; i++)
